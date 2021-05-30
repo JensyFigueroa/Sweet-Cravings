@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../Kills-Cravings/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Kills-Cravings/css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <title>Kills Cravings</title>
   </head>
@@ -16,23 +16,60 @@
 <!------------ Navegacion -------------->
 
 <div class="container-fluid bg-dark fixed-top text-center">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
-      
-      <a class="navbar-brand" href="#">Kills Cravings</a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#"></a>
-              <a class="nav-item nav-link" href="#">Pricing</a>
-              <a class="nav-item nav-link mr-md-4" href="#">Disabled</a>
-              <div><a href="#" class="btn btn-danger">Contacto</a></div>
-      </div>
-  </nav>
+        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+        
+        <a class="navbar-brand" href="#">Kills Cravings</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Productos</a>
+                <a class="nav-item nav-link" href="#">Combos</a>
+                <a class="nav-item nav-link mr-md-4" href="#">Contacto</a>
+                
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Iniciar Sesión</a>
+                        <form class="px-1 py-1">
+                        <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Usuario o correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                            Recordar
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                        <a class="dropdown-item" href="#">Olvide la contraseña?</a>    
+                        </form>
+                        
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Registrarse</a>
+                    </div>
+                </div>
+            <a href="#"><img src="../img/mbrishoppingcart_99558.ico" alt=""></a>
+            
+                
+                
+            
+            </div>
+                
+        </div>
+    </nav>
 
 </div>
 
@@ -52,21 +89,21 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="d-block w-100" src="../Kills-Cravings/img/Slide-1.jpg" alt="First slide" height="400px">
+                  <img class="d-block w-100" src="../img/Slide-1.jpg" alt="First slide" height="400px">
                   <div class="carousel-caption d-none d-md-block text-dark">
                      <h5>Macarón o Macarrón</h5>
                      <p>Es un tipo de galleta tradicional de la Gastronomía de Francia e Italia hecha de clara de huevo, almendra molida, azúcar glas y azúcar</p>
                   </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../Kills-Cravings/img/Slide-2.jpg" alt="Second slide"  height="400px">
+                <img class="d-block w-100" src="../img/Slide-2.jpg" alt="Second slide"  height="400px">
                 <div class="carousel-caption d-none d-md-block text-dark">
                   <h5 >Croissant o Medialuna</h5>
                   <p>Es una pieza de panadería de origen austriaco, cuya versión hojaldrada se desarrolló en Francia.</p>
                </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../Kills-Cravings/img/Slide-3.jpg" alt="Third slide"  height="400px">
+                <img class="d-block w-100" src="../img/Slide-3.jpg" alt="Third slide"  height="400px">
                 <div class="carousel-caption d-none d-md-block text-white">
                   <h5 >Facturas</h5>
                   <p>Es el nombre genérico con el cual se denomina en Argentina a la variedad de masas y piezas de panadería dulce introducidas por la inmigración europea que se instaló en la región del Río de la Plata, y que con el tiempo fueron adaptadas al gusto de la región
@@ -93,12 +130,12 @@
 
 <div class="container">
    <div class="row">
-      <div class="col-12 mt-2">
+      <div class="col-12">
 
          <div class="row d-flex justify-content-center">
-            <div class="col-4">
+            <div class="col-4 mt-4">
                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="../Kills-Cravings/img/card-1.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../img/card-1.jpg" alt="Card image cap">
                   <div class="card-body">
                   <h5 class="card-title">Macarrón</h5>
                   <p class="card-text">12 Macarrones variados</p>
@@ -107,9 +144,9 @@
                </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-4 mt-4">
                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="../Kills-Cravings/img/card-3.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../img/card-2.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">Croissant</h5>
                      <p class="card-text">12 Croissant</p>
@@ -118,21 +155,97 @@
                </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-4 mt-4">
                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="../Kills-Cravings/img/card-3.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../img/card-3.jpg" alt="Card image cap">
                   <div class="card-body">
                   <h5 class="card-title">Croissant</h5>
                   <p class="card-text">12 Croissant</p>
                   <a href="#" class="btn btn-danger rounded-circle font-weight-bold">+</a>
-                </div>
+                  </div>
                 </div>
             </div>
-         </div>
 
+
+            <div class="col-4 mt-4">
+                <div class="card" style="width: 18rem;">
+                   <img class="card-img-top" src="../img/card-1.jpg" alt="Card image cap">
+                   <div class="card-body">
+                   <h5 class="card-title">Macarrón</h5>
+                   <p class="card-text">12 Macarrones variados</p>
+                    <a href="#" class="btn btn-danger rounded-circle font-weight-bold">+</a>
+                   </div>
+                </div>
+             </div>
+ 
+             <div class="col-4 mt-4">
+                <div class="card" style="width: 18rem;">
+                   <img class="card-img-top" src="../img/card-2.jpg" alt="Card image cap">
+                   <div class="card-body">
+                      <h5 class="card-title">Croissant</h5>
+                      <p class="card-text">12 Croissant</p>
+                      <a href="#" class="btn btn-danger rounded-circle font-weight-bold">+</a>
+                   </div>
+                </div>
+             </div>
+ 
+             <div class="col-4 mt-4">
+                <div class="card" style="width: 18rem;">
+                   <img class="card-img-top" src="../img/card-3.jpg" alt="Card image cap">
+                   <div class="card-body">
+                   <h5 class="card-title">Croissant</h5>
+                   <p class="card-text">12 Croissant</p>
+                   <a href="#" class="btn btn-danger rounded-circle font-weight-bold">+</a>
+                   </div>
+                 </div>
+             </div>
+
+
+         </div>
       </div>
    </div>
 </div>
+
+
+<!--------------------- Footer ------------------->
+
+<footer class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul class="text-info py-2 font-italic"><h5>Corporación</h5>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Términos y condiciones</a></li> 
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Tratamiento de datos</a></li> 
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Política de reclamos y retracto</a></li> 
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Contáctanos</a></li>
+                </ul>
+            </div>
+
+            <div class="col-4">
+                <ul><h5 class="text-info py-2 font-italic">Tienda Online</h5>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Cambios y devoluciones</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Descuentos y financiación</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Medios de pago</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Métodos de entrega</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Legales</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Ofertas</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Términos y condiciones</a></li>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Venta al mayor</a></li>
+                </ul>
+            </div>
+            <div class="col-4 ">
+                <ul class="text-info py-2 font-italic"><h5>Información Coco</h5>
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Preguntas frecuentes</a></li> 
+                    <li class="nav-item nav-link"><a href="#" class="text-light font-italic">Enlace de referidos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--------------------- Fin Footer ------------------->
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
